@@ -3,6 +3,7 @@ package com.codecool;
 public class Residents{
     protected String firstName,lastName;
     protected int birthOfYear;
+ 
 
     public Residents(String firstName, String lastName, int birthOfYear){
         this.firstName = firstName;
@@ -21,4 +22,8 @@ public class Residents{
     public int getBirthOfYear(){
         return birthOfYear;
     }
+
+ 
+
+
 }
