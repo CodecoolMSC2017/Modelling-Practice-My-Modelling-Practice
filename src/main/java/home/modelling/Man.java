@@ -1,4 +1,4 @@
-package home.model;
+package modelling;
 
 import java.util.Date;
 
@@ -19,6 +19,7 @@ public class Man extends Resident {
 
     @Override
     public String toString() {
+
         return super.toString() + "\n" + "last time had a shower: " + lastShowerDate;
     }
 }

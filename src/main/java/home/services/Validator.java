@@ -1,6 +1,6 @@
-package home.service;
+package services;
 
-import home.model.ResidentType;
+import modelling.ResidentType;
 
 public class Validator {
 

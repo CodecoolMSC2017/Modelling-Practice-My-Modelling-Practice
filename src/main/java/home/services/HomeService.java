@@ -1,14 +1,13 @@
-package home.service;
+package services;
 
-import home.model.*;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import modelling.*;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import static home.model.ResidentType.*;
+import static modelling.ResidentType.*;
 
 public class HomeService {
     private List<Resident> residents;
@@ -80,16 +79,33 @@ public class HomeService {
     }
 
     public void save() throws IOException {
-        FileOutputStream fileOutputStream = new FileOutputStream("file_name");
+        FileOutputStream fileOutputStream = new FileOutputStream("myfile");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(residents);
         objectOutputStream.close();
         fileOutputStream.close();
     }
 
-    public void load() {
-        // listaba tolti a file-t
-        //residents = (betoltott lista)
+    public ArrayList<String> load() throws IOException, ClassNotFoundException {
+        ArrayList<String> arraylist = new ArrayList<String>();
+        try {
+            FileInputStream fis = new FileInputStream("myfile");
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            arraylist = (ArrayList) ois.readObject();
+            ois.close();
+            fis.close();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+            return arraylist;
+        } catch (ClassNotFoundException c) {
+            System.out.println("Class not found");
+            c.printStackTrace();
+            return arraylist;
+        }
+        return arraylist;
     }
-    //TODO save method implementation
+    // listaba tolti a file-t
+    //residents = (betoltott lista)
+}
+//TODO save method implementation
 }

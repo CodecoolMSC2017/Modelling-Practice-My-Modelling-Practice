@@ -1,4 +1,4 @@
-package home.model;
+package modelling;
 
 import java.io.Serializable;
 

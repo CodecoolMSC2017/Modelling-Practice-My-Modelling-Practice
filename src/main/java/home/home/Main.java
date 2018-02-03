@@ -1,9 +1,9 @@
 package home;
 
-import com.sun.corba.se.impl.naming.cosnaming.NamingUtils;
-import home.model.ResidentType;
-import home.service.HomeService;
-import home.service.Validator;
+import services.HomeService;
+import services.Validator;
+
+import java.util.Scanner;
 
 public class Main {
 
@@ -12,14 +12,15 @@ public class Main {
         System.out.println("Welcome to my house: ");
 
         HomeService homeService = HomeService.getInstance();
-        String type = "MAN";
-        String firstName = "MAte";
-        String lastName = "adad";
-        String yearOfBirth = "kiscska";
-
-        //while amig az bukik addig ne engedje tovabb
+        Scanner s = new Scanner(System.in);
+        String type = s.nextLine();
+        String firstName = s.nextLine();
+        String lastName = s.nextLine();
+        String yearOfBirth = s.nextLine();
         boolean isYearValid = Validator.validateYear(yearOfBirth);
+        while (isYearValid== false) {
 
+        }
 
         try {
             homeService.createResident(type, firstName, lastName, yearOfBirth);

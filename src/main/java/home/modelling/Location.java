@@ -1,4 +1,4 @@
-package home.model;
+package modelling;
 
 public enum Location {
     BATHROOM, LIVINGROOM, KITCHEN
