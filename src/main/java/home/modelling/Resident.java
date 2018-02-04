@@ -19,7 +19,7 @@ public class Resident implements Serializable {
         StringBuilder sb = new StringBuilder();
         sb.append("first name: " + firstName + "\n");
         sb.append("last name: " + lastName + "\n");
-        sb.append("last name: " + lastName + "\n");
+        sb.append("year of birth: " + yearOfBirth + "\n");
         if (location != null) {
             sb.append("location: " + String.valueOf(location));
         }

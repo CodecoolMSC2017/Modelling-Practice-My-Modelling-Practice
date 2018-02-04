@@ -79,33 +79,22 @@ public class HomeService {
     }
 
     public void save() throws IOException {
-        FileOutputStream fileOutputStream = new FileOutputStream("myfile");
+        FileOutputStream fileOutputStream = new FileOutputStream("myfile2.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(residents);
         objectOutputStream.close();
         fileOutputStream.close();
     }
 
-    public ArrayList<String> load() throws IOException, ClassNotFoundException {
-        ArrayList<String> arraylist = new ArrayList<String>();
-        try {
-            FileInputStream fis = new FileInputStream("myfile");
-            ObjectInputStream ois = new ObjectInputStream(fis);
-            arraylist = (ArrayList) ois.readObject();
-            ois.close();
-            fis.close();
-        } catch (IOException ioe) {
-            ioe.printStackTrace();
-            return arraylist;
-        } catch (ClassNotFoundException c) {
-            System.out.println("Class not found");
-            c.printStackTrace();
-            return arraylist;
-        }
-        return arraylist;
+    public void load() throws IOException, ClassNotFoundException {
+        ArrayList<Resident> arraylist = new ArrayList<Resident>();
+
+        FileInputStream fis = new FileInputStream("myfile2.ser");
+        ObjectInputStream ois = new ObjectInputStream(fis);
+        arraylist = (ArrayList) ois.readObject();
+        ois.close();
+        fis.close();
+        residents = arraylist;
     }
-    // listaba tolti a file-t
-    //residents = (betoltott lista)
 }
 //TODO save method implementation
-}

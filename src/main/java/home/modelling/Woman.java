@@ -15,4 +15,8 @@ public class Woman extends Resident {
 
         return super.toString() + "\n" + "last seen by hairdresser: " + lastSeenByHairDresser;
     }
+
+    public void setLastSeenByHairDresser(Date lastSeenByHairDresser) {
+        this.lastSeenByHairDresser = lastSeenByHairDresser;
+    }
 }
