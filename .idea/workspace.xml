@@ -4,15 +4,13 @@
     <list default="true" id="731b2dd1-4174-4c3a-ba40-07d6280a8e12" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/home/home/Main.java" afterPath="$PROJECT_DIR$/src/main/java/home/home/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home/modelling/Resident.java" afterPath="$PROJECT_DIR$/src/main/java/home/modelling/Resident.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home/modelling/Woman.java" afterPath="$PROJECT_DIR$/src/main/java/home/modelling/Woman.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home/services/HomeService.java" afterPath="$PROJECT_DIR$/src/main/java/home/services/HomeService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home/modelling/Man.java" afterPath="$PROJECT_DIR$/src/main/java/home/modelling/Man.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home/services/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/home/services/Menu.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home/services/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/home/services/Validator.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/home/Main.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/home/Main.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/modelling/Man.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/modelling/Man.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/modelling/Resident.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/modelling/Resident.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/modelling/Woman.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/modelling/Woman.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/HomeService$1.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/HomeService$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/HomeService.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/HomeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/Menu.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/Menu.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/Validator.class" afterPath="$PROJECT_DIR$/target/classes/home/production/Modelling-Practice-My-Modelling-Preactice/services/Validator.class" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="Resident.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Resident.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="464">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,8 +34,8 @@
       <file leaf-file-name="HomeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/services/HomeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="89" column="66" lean-forward="true" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
+            <state relative-caret-position="212">
+              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#306#307#0" expanded="true" />
@@ -49,12 +47,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/services/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,28 +72,18 @@
       <file leaf-file-name="Man.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Man.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/home/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/services/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+            <state relative-caret-position="257">
+              <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +114,8 @@
       <file leaf-file-name="ResidentType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/ResidentType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -162,19 +162,19 @@
         <option value="$PROJECT_DIR$/src/com/codecool/Room.java" />
         <option value="$PROJECT_DIR$/src/com/codecool/Flat.java" />
         <option value="$PROJECT_DIR$/src/main/java/home/model/home/model/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/java/home/services/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/home/models/Woman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/home/modelling/Man.java" />
         <option value="$PROJECT_DIR$/src/main/java/home/modelling/ResidentType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/home/modelling/Resident.java" />
         <option value="$PROJECT_DIR$/src/main/java/home/modelling/Woman.java" />
-        <option value="$PROJECT_DIR$/src/main/java/home/services/HomeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/home/modelling/Resident.java" />
+        <option value="$PROJECT_DIR$/src/main/java/home/modelling/Man.java" />
+        <option value="$PROJECT_DIR$/src/main/java/home/services/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/home/home/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/home/services/HomeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/home/services/Menu.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
@@ -417,7 +417,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -485,30 +485,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/codecool/Room.java" />
     <entry file="file://$PROJECT_DIR$/src/com/codecool/Furniture.java" />
     <entry file="file://$PROJECT_DIR$/src/com/codecool/Flat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/ResidentType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Man.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -533,26 +509,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/services/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/ResidentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/modelling/Resident.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="464">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/services/HomeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="89" column="66" lean-forward="true" selection-start-line="89" selection-start-column="66" selection-end-line="89" selection-end-column="66" />
+        <state relative-caret-position="212">
+          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
@@ -563,21 +565,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/services/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/home/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/home/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/services/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="257">
+          <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

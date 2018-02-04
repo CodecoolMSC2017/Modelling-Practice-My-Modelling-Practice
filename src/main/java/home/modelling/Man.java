@@ -19,7 +19,9 @@ public class Man extends Resident {
 
     @Override
     public String toString() {
-
-        return super.toString() + "\n" + "last time had a shower: " + lastShowerDate;
+        if (lastShowerDate != null) {
+            return super.toString() + "\n" + "last time had a shower: " + lastShowerDate;
+        }
+        return super.toString();
     }
 }
